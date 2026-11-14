@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE COMMON CITIZEN (KRS) | जन-अधिकार एवं सेवा मंच</title>
+    <meta name="description" content="THE COMMON CITIZEN (KRS) - एक 100% गैर-राजनीतिक, धर्मनिरपेक्ष एवं पूर्ण पारदर्शी सामाजिक संगठन। Aware Citizen • Empowered Society.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Noto Sans Devanagari & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        civicNavy: {
+                            800: '#163a68',
+                            900: '#0f294a',
+                            950: '#091a30'
+                        },
+                        civicSaffron: {
+                            500: '#f97316',
+                            600: '#ea580c'
+                        },
+                        civicGreen: {
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'Noto Sans Devanagari', 'sans-serif'],
+                        hindi: ['Noto Sans Devanagari', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', 'Poppins', sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+            overflow-x: hidden;
+        }
+        .tricolor-strip {
+            height: 5px;
+            background: linear-gradient(90deg, #f97316 0%, #f97316 33.33%, #ffffff 33.33%, #ffffff 66.66%, #15803d 66.66%, #15803d 100%);
+        }
+        .tricolor-avatar-ring {
+            background: linear-gradient(135deg, #f97316 0%, #ffffff 50%, #15803d 100%);
+            padding: 3px;
+        }
+        .id-card-bg {
+            background-color: #ffffff;
+            background-image: radial-gradient(#0f294a 0.55px, transparent 0.55px);
+            background-size: 14px 14px;
+        }
+        .navy-id-frame {
+            border: 3px solid #0f294a;
+            box-shadow: 0 20px 35px -10px rgba(15, 41, 74, 0.28);
+        }
+        .gold-id-frame {
+            border: 3px solid #d97706;
+            box-shadow: 0 20px 35px -10px rgba(217, 119, 6, 0.32);
+        }
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            #printableOfficialCard, #printableOfficialCard * {
+                visibility: visible;
+            }
+            #printableOfficialCard {
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-civicSaffron-500 selection:text-white">
+
+    <!-- Top Tricolor Bar -->
+    <div class="tricolor-strip w-full sticky top-0 z-50"></div>
+
+    <!-- Top Official Utility Bar -->
+    <div class="bg-civicNavy-950 text-white text-xs sm:text-sm py-2 px-4 border-b border-civicNavy-800">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center gap-3 flex-wrap">
+                <span class="inline-flex items-center gap-1.5 text-amber-300 font-semibold">
+                    <i class="fa-solid fa-shield-halved"></i> 100% गैर-राजनीतिक • पूर्ण पारदर्शी जन-अधिकार मंच
+                </span>
+                <span class="hidden md:inline text-slate-500">|</span>
+                <span class="hidden md:inline text-slate-300">
+                    <i class="fa-solid fa-location-dot text-civicSaffron-500 mr-1"></i> मुख्यालय: खंडेला / सीकर (राजस्थान) • समन्वय कार्यालय: रेवाड़ी (हरियाणा)
+                </span>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="tel:+917015290445" class="hover:text-amber-300 transition flex items-center gap-1.5 font-bold">
+                    <i class="fa-solid fa-phone text-green-400"></i> +91 70152 90445
+                </a>
+                <a href="https://wa.me/917015290445?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%AE%20%E0%A4%9C%E0%A5%80,%20%E0%A4%AE%E0%A5%88%E0%A4%82%20THE%20COMMON%20CITIZEN%20(KRS)%20%E0%A4%AE%E0%A5%81%E0%A4%B9%E0%A4%BF%E0%A4%AE%20%E0%A4%B8%E0%A5%87%20%E0%A4%9C%E0%A5%81%E0%A4%A1%E0%A4%BC%E0%A4%A8%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A4%E0%A4%BE/%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A4%E0%A5%80%20%E0%A4%B9%E0%A5%82%E0%A4%81%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="bg-civicGreen-700 hover:bg-civicGreen-600 text-white px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1.5 transition shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-sm"></i> सीधा संपर्क
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Sticky Navigation Header -->
+    <header class="bg-white shadow-sm sticky top-[5px] z-40 border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-4">
+            <!-- Brand Official Logo (1000975713.jpg with crisp SVG fallback) & Title -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-16 sm:w-20 h-12 sm:h-14 flex-shrink-0 rounded-xl bg-slate-950 border border-slate-200 p-0.5 shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="1000975713.jpg" onerror="this.onerror=null; this.src=getFallbackEmblemDataURI();" alt="THE COMMON CITIZEN Official Logo" class="w-full h-full object-contain rounded-lg">
+                </div>
+                <div>
+                    <h1 class="text-lg sm:text-2xl font-extrabold text-civicNavy-900 tracking-tight leading-none">
+                        THE COMMON CITIZEN <span class="text-civicSaffron-500">(KRS)</span>
+                    </h1>
+                    <p class="text-xs sm:text-sm font-bold text-civicGreen-700 mt-1">
+                        जन-अधिकार एवं सेवा मंच • <span class="text-slate-600 font-medium">For a Better Society</span>
+                    </p>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden lg:flex items-center gap-6 text-sm font-bold text-civicNavy-900">
+                <a href="#transparency" class="hover:text-civicSaffron-500 transition flex items-center gap-1.5 text-civicGreen-700">
+                    <i class="fa-solid fa-eye"></i> पारदर्शिता रिकॉर्ड
+                </a>
+                <a href="#sankalp" class="hover:text-civicSaffron-500 transition">10 ज़मीनी संकल्प</a>
+                <a href="#leadership" class="hover:text-civicSaffron-500 transition">नेतृत्व व ID कार्ड</a>
+                <a href="#registration" class="hover:text-civicSaffron-500 transition">सदस्यता पंजीकरण</a>
+                <a href="#helpdesk" class="hover:text-civicSaffron-500 transition">जन-समस्या केंद्र</a>
+            </nav>
+
+            <!-- Action CTA -->
+            <div>
+                <a href="#registration" class="bg-civicNavy-900 hover:bg-civicNavy-800 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl shadow transition flex items-center gap-2">
+                    <i class="fa-solid fa-id-card text-amber-400"></i> सदस्य बनें / ID कार्ड पाएं
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO BANNER SECTION -->
+    <section class="bg-gradient-to-br from-civicNavy-950 via-civicNavy-900 to-civicNavy-800 text-white relative overflow-hidden">
+        <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-civicSaffron-500 opacity-10 blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-civicGreen-600 opacity-15 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 py-10 sm:py-14 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <!-- Left Hero Content -->
+                <div class="lg:col-span-8 space-y-5">
+                    <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold text-amber-300">
+                        <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+                        Aware Citizen • Empowered Society • For a Better Society
+                    </div>
+                    <h2 class="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+                        आम नागरिक के अधिकार, शिक्षा, स्वास्थ्य और न्याय की <span class="text-civicSaffron-500">सशक्त आवाज़</span>
+                    </h2>
+                    <p class="text-slate-200 text-sm sm:text-base max-w-2xl leading-relaxed">
+                        <strong>THE COMMON CITIZEN (KRS)</strong> राजस्थान (खंडेला/सीकर/जोधपुर) से प्रारंभ होकर रेवाड़ी (हरियाणा) समन्वय कार्यालय के माध्यम से संचालित एक <strong>100% गैर-राजनीतिक, धर्मनिरपेक्ष एवं पूर्ण पारदर्शी</strong> सामाजिक संगठन है। हमारा प्रत्येक रिकॉर्ड, सदस्यता विवरण और जन-कार्रवाई हर नागरिक के लिए निःशुल्क व सार्वजनिक रूप से उपलब्ध है।
+                    </p>
+
+                    <!-- Trust Metrics -->
+                    <div class="grid grid-cols-3 gap-3 max-w-lg pt-1">
+                        <div class="bg-white/10 border border-white/15 rounded-xl p-3 text-center">
+                            <div class="text-lg sm:text-2xl font-extrabold text-amber-300">100%</div>
+                            <div class="text-[11px] sm:text-xs text-slate-200">खुला पारदर्शी रिकॉर्ड</div>
+                        </div>
+                        <div class="bg-white/10 border border-white/15 rounded-xl p-3 text-center">
+                            <div class="text-lg sm:text-2xl font-extrabold text-green-400">10</div>
+                            <div class="text-[11px] sm:text-xs text-slate-200">ज़मीनी जन-संकल्प</div>
+                        </div>
+                        <div class="bg-white/10 border border-white/15 rounded-xl p-3 text-center">
+                            <div class="text-lg sm:text-2xl font-extrabold text-civicSaffron-500">24x7</div>
+                            <div class="text-[11px] sm:text-xs text-slate-200">जन-सहायता एवं RTI</div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2 flex flex-wrap gap-3">
+                        <a href="#registration" class="bg-civicSaffron-500 hover:bg-civicSaffron-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition flex items-center gap-2 text-sm sm:text-base">
+                            <i class="fa-solid fa-user-plus"></i> ऑनलाइन सदस्यता लें
+                        </a>
+                        <a href="https://www.facebook.com/share/17snsPAEMd/" target="_blank" rel="noopener noreferrer" class="bg-[#1877F2] hover:bg-blue-700 text-white font-bold px-5 py-3 rounded-xl shadow-lg transition flex items-center gap-2 text-sm sm:text-base">
+                            <i class="fa-brands fa-facebook"></i> आधिकारिक Facebook पेज
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Founder & National Coordinator Contact Card -->
+                <div class="lg:col-span-4">
+                    <div class="bg-white text-slate-800 rounded-2xl p-5 shadow-2xl border-t-4 border-civicSaffron-500">
+                        <div class="flex items-center gap-3.5 border-b border-slate-100 pb-3.5">
+                            <div class="tricolor-avatar-ring rounded-full flex-shrink-0">
+                                <img src="1000797610.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0f294a/FFFFFF?text=K.L.+Saini';" alt="कानाराम सैनी" class="w-16 h-16 rounded-full object-cover object-top bg-civicNavy-900">
+                            </div>
+                            <div>
+                                <span class="text-[10px] font-extrabold uppercase tracking-wider text-civicSaffron-600 bg-orange-50 px-2.5 py-0.5 rounded-full border border-orange-200">संस्थापक एवं मुख्य संयोजक</span>
+                                <h3 class="font-extrabold text-civicNavy-900 text-lg leading-tight mt-1">कानाराम सैनी (K. L. Saini)</h3>
+                                <p class="text-xs text-slate-500">खंडेला (राजस्थान) • समन्वय: रेवाड़ी (हरियाणा)</p>
+                            </div>
+                        </div>
+                        <div class="mt-3.5 space-y-2.5 text-xs sm:text-sm">
+                            <p class="text-slate-600 leading-relaxed">
+                                संगठन में जुड़ने, अपने गाँव/पंचायत की इकाई शुरू करने या किसी जन-समस्या के समाधान हेतु सीधा संपर्क करें:
+                            </p>
+                            <div class="flex flex-col gap-2 pt-1">
+                                <a href="tel:+917015290445" class="w-full bg-civicNavy-900 hover:bg-civicNavy-800 text-white font-bold py-2.5 px-4 rounded-xl text-center transition flex items-center justify-center gap-2 shadow-sm">
+                                    <i class="fa-solid fa-phone-volume text-amber-400"></i> कॉल करें: +91 70152 90445
+                                </a>
+                                <a href="https://wa.me/917015290445?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%AE%20%E0%A4%9C%E0%A5%80,%20%E0%A4%AE%E0%A5%88%E0%A4%82%20THE%20COMMON%20CITIZEN%20(KRS)%20%E0%A4%B8%E0%A5%87%20%E0%A4%9C%E0%A5%81%E0%A4%A1%E0%A4%BC%E0%A4%A8%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A4%E0%A4%BE%20%E0%A4%B9%E0%A5%82%E0%A4%81%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="w-full bg-civicGreen-700 hover:bg-civicGreen-600 text-white font-bold py-2.5 px-4 rounded-xl text-center transition flex items-center justify-center gap-2 shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp पर जुड़ें (+91 70152 90445)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 100% TRANSPARENCY & OPEN RECORD CHARTER -->
+    <section id="transparency" class="max-w-7xl mx-auto px-4 -mt-6 relative z-20">
+        <div class="bg-white rounded-2xl shadow-lg border-2 border-civicGreen-700/25 p-5 sm:p-6 space-y-5">
+            <div class="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-11 h-11 rounded-xl bg-green-50 text-civicGreen-700 flex items-center justify-center text-xl border border-green-200 flex-shrink-0">
+                        <i class="fa-solid fa-shield-check"></i>
+                    </div>
+                    <div>
+                        <span class="text-[11px] font-extrabold uppercase tracking-wider text-civicGreen-700 bg-green-50 px-2.5 py-0.5 rounded-full">Zero-Corruption Transparency Charter</span>
+                        <h3 class="text-lg sm:text-2xl font-extrabold text-civicNavy-900 mt-0.5">100% पारदर्शिता एवं खुला रिकॉर्ड सिस्टम (Open Record Guarantee)</h3>
+                    </div>
+                </div>
+                <span class="text-xs font-bold bg-civicNavy-900 text-amber-300 px-3.5 py-1.5 rounded-xl">
+                    <i class="fa-solid fa-lock-open mr-1"></i> सभी रिकॉर्ड हर नागरिक के लिए निःशुल्क उपलब्ध
+                </span>
+            </div>
+
+            <!-- 4 Pillars of Transparency -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+                <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1.5">
+                    <div class="flex items-center gap-2 text-civicNavy-900 font-extrabold text-sm">
+                        <span class="w-7 h-7 rounded-lg bg-civicNavy-900 text-white flex items-center justify-center text-xs"><i class="fa-solid fa-book-open"></i></span>
+                        1. सार्वजनिक लेखा-जोखा
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        संगठन में होने वाली प्रत्येक गतिविधि, सदस्यता विवरण और सेवा कार्यों का पूरा रिकॉर्ड हर सदस्य व नागरिक के लिए निःशुल्क और सार्वजनिक रूप से उपलब्ध रहेगा।
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1.5">
+                    <div class="flex items-center gap-2 text-civicGreen-700 font-extrabold text-sm">
+                        <span class="w-7 h-7 rounded-lg bg-civicGreen-700 text-white flex items-center justify-center text-xs"><i class="fa-solid fa-hand-holding-heart"></i></span>
+                        2. शून्य व्यक्तिगत लाभ
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        किसी भी पदाधिकारी को वेतन या निजी लाभ नहीं दिया जाता। 100% संसाधन केवल चिकित्सा शिविर, नशा मुक्ति, शिक्षा मार्गदर्शन और गरीब परिवारों की सहायता में लगते हैं।
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1.5">
+                    <div class="flex items-center gap-2 text-amber-800 font-extrabold text-sm">
+                        <span class="w-7 h-7 rounded-lg bg-amber-500 text-white flex items-center justify-center text-xs"><i class="fa-solid fa-file-shield"></i></span>
+                        3. रसीद व ऑडिट व्यवस्था
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        प्रत्येक सहयोग राशि केवल मुख्य संयोजक के सत्यापित समन्वय से दर्ज होती है और सोसाइटी/ट्रस्ट पंजीकरण उपरांत वार्षिक CA ऑडिट रिपोर्ट सार्वजनिक की जाएगी।
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1.5">
+                    <div class="flex items-center gap-2 text-civicSaffron-600 font-extrabold text-sm">
+                        <span class="w-7 h-7 rounded-lg bg-civicSaffron-500 text-white flex items-center justify-center text-xs"><i class="fa-solid fa-scale-balanced"></i></span>
+                        4. निःशुल्क रिकॉर्ड अवलोकन
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        कोई भी सदस्य या आम नागरिक बिना किसी शुल्क के सदस्यता रजिस्टर, कार्य प्रगति और RTI कार्रवाई की प्रति मांग कर देख सकता है।
+                    </p>
+                </div>
+            </div>
+
+            <!-- Public Transparency Register Table -->
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <h4 class="text-xs sm:text-sm font-extrabold text-civicNavy-900 flex items-center gap-2">
+                        <i class="fa-solid fa-table-list text-civicGreen-700"></i> सार्वजनिक पारदर्शिता रजिस्टर (Public Transparency Register)
+                    </h4>
+                    <span class="text-[11px] font-semibold text-slate-500">स्व-वित्तपोषित एवं जन-सहयोग पारदर्शी मॉडल</span>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="bg-civicNavy-900 text-white">
+                                <th class="py-2 px-3 rounded-tl-lg">चरण / स्थिति</th>
+                                <th class="py-2 px-3">कार्य एवं विवरण</th>
+                                <th class="py-2 px-3">वित्तीय मॉडल</th>
+                                <th class="py-2 px-3 rounded-tr-lg">पारदर्शिता प्रमाण</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 bg-white">
+                            <tr>
+                                <td class="py-2 px-3 font-bold text-civicNavy-900">प्रारंभिक चरण</td>
+                                <td class="py-2 px-3">आधिकारिक वेब पोर्टल, डिजिटल ID कार्ड व जनजागरूकता अभियान</td>
+                                <td class="py-2 px-3 font-semibold text-civicGreen-700">संस्थापक एवं कोर टीम स्व-वित्तपोषित</td>
+                                <td class="py-2 px-3 text-civicGreen-700 font-bold"><i class="fa-solid fa-circle-check"></i> आमजन से ₹0 शुल्क</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-3 font-bold text-civicNavy-900">निरंतर जन-सेवा</td>
+                                <td class="py-2 px-3">RTI आवेदन, राजस्थान संपर्क (181) शिकायत व प्रशासनिक ज्ञापन</td>
+                                <td class="py-2 px-3 font-semibold text-civicGreen-700">100% निःशुल्क नागरिक सहायता</td>
+                                <td class="py-2 px-3 text-civicGreen-700 font-bold"><i class="fa-solid fa-circle-check"></i> खुला सार्वजनिक रिकॉर्ड</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-3 font-bold text-civicNavy-900">आगामी शिविर</td>
+                                <td class="py-2 px-3">नशा मुक्ति चौपाल, करियर मार्गदर्शन व निःशुल्क स्वास्थ्य शिविर</td>
+                                <td class="py-2 px-3 font-semibold text-amber-800">सहयोगी सदस्य समन्वय कोष</td>
+                                <td class="py-2 px-3 text-amber-700 font-bold"><i class="fa-solid fa-receipt"></i> पूर्ण रसीद सहित सार्वजनिक</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10 ZAMEENI SANKALP (10 ज़मीनी संकल्प) -->
+    <section id="sankalp" class="max-w-7xl mx-auto px-4 mt-6">
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 sm:p-6">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4 border-b border-slate-100 pb-3">
+                <h3 class="text-lg sm:text-xl font-extrabold text-civicNavy-900 flex items-center gap-2">
+                    <span class="bg-civicSaffron-500 text-white w-7 h-7 rounded-lg inline-flex items-center justify-center text-sm font-extrabold">10</span>
+                    हमारे 10 ज़मीनी संकल्प (10 Ground Resolutions)
+                </h3>
+                <span class="text-xs font-bold text-civicGreen-700 bg-green-50 px-3 py-1 rounded-full border border-green-200">
+                    गाँव-गाँव, ढाणी-ढाणी बदलाव की मुहिम
+                </span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2.5 text-xs sm:text-sm font-semibold">
+                <div class="bg-slate-50 hover:bg-orange-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicSaffron-600 font-extrabold">01.</span> बिना रिश्वत सरकारी काम
+                </div>
+                <div class="bg-slate-50 hover:bg-orange-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicSaffron-600 font-extrabold">02.</span> 24x7 रक्तदान व अस्पताल सहायता
+                </div>
+                <div class="bg-slate-50 hover:bg-orange-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicSaffron-600 font-extrabold">03.</span> गरीब बेटियों की शादी में सहयोग
+                </div>
+                <div class="bg-slate-50 hover:bg-orange-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicSaffron-600 font-extrabold">04.</span> नशा मुक्ति व ग्रामीण खेल
+                </div>
+                <div class="bg-slate-50 hover:bg-orange-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicSaffron-600 font-extrabold">05.</span> युवा रोजगार व शिक्षा मार्गदर्शन
+                </div>
+                <div class="bg-slate-50 hover:bg-green-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicGreen-700 font-extrabold">06.</span> पेंशन, राशन व जन-कल्याण
+                </div>
+                <div class="bg-slate-50 hover:bg-green-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicGreen-700 font-extrabold">07.</span> किसानों के अधिकार: बिजली-पानी
+                </div>
+                <div class="bg-slate-50 hover:bg-green-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicGreen-700 font-extrabold">08.</span> सामाजिक कुरीतियों का विरोध
+                </div>
+                <div class="bg-slate-50 hover:bg-green-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicGreen-700 font-extrabold">09.</span> गौवंश व बेजुबानों की सेवा
+                </div>
+                <div class="bg-slate-50 hover:bg-green-50/60 border border-slate-200 p-2.5 rounded-xl flex items-center gap-2 transition">
+                    <span class="text-civicGreen-700 font-extrabold">10.</span> सड़क, स्कूल व अस्पताल सुधार
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT LAYOUT: LEFT (8 COLS) + RIGHT SIDEBAR (4 COLS) -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+            <!-- LEFT COLUMN (8 COLS) -->
+            <div class="lg:col-span-8 space-y-10">
+
+                <!-- SECTION 1: VERIFIED CORE LEADERSHIP DIRECTORY (READ-ONLY) -->
+                <section id="leadership" class="bg-white rounded-2xl shadow-md border border-slate-200 p-5 sm:p-6 space-y-5">
+                    <div class="flex flex-wrap items-end justify-between gap-3 border-b border-slate-100 pb-4">
+                        <div>
+                            <span class="text-xs font-extrabold uppercase tracking-wider text-civicSaffron-600">सत्यापित नेतृत्व एवं पदाधिकारी परिचय</span>
+                            <h2 class="text-xl sm:text-2xl font-extrabold text-civicNavy-900 mt-0.5">नेतृत्व एवं कोर टीम (Core Leadership Directory)</h2>
+                            <p class="text-xs text-slate-500 mt-1">प्रत्येक पदाधिकारी का विस्तृत बायोडाटा पढ़ें एवं उनका आधिकारिक डिजिटल ID कार्ड देखें</p>
+                        </div>
+
+                        <!-- Category Filter Pills -->
+                        <div class="flex flex-wrap gap-1.5 bg-slate-100 p-1 rounded-xl text-xs font-bold">
+                            <button type="button" onclick="filterDirectory('all')" id="filter-all" class="px-3 py-1.5 rounded-lg bg-civicNavy-900 text-white shadow-sm transition">
+                                सभी पदाधिकारी (6)
+                            </button>
+                            <button type="button" onclick="filterDirectory('founders')" id="filter-founders" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-civicNavy-900 transition">
+                                संस्थापक व मुख्य सलाहकार
+                            </button>
+                            <button type="button" onclick="filterDirectory('wings')" id="filter-wings" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-civicNavy-900 transition">
+                                प्रकोष्ठ व क्षेत्रीय प्रभारी
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Core Team Cards Grid -->
+                    <div id="membersDirectoryGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Rendered via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- SECTION 2: TWO-TIER MEMBERSHIP REGISTRATION SYSTEM (ZERO-QR) -->
+                <section id="registration" class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden">
+                    <div class="bg-civicNavy-900 text-white p-5 sm:p-6">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div>
+                                <span class="text-xs font-bold uppercase tracking-wider text-amber-300">ऑनलाइन सदस्यता पंजीकरण पोर्टल</span>
+                                <h2 class="text-xl sm:text-2xl font-extrabold mt-0.5">संगठन से जुड़ें एवं अपना डिजिटल ID कार्ड पाएं</h2>
+                            </div>
+                            <span class="bg-white/10 text-xs px-3 py-1.5 rounded-lg border border-white/20">
+                                <i class="fa-solid fa-bolt text-amber-400 mr-1"></i> तत्काल प्रोविजनल ID कार्ड
+                            </span>
+                        </div>
+                        <p class="text-slate-300 text-xs sm:text-sm mt-2">
+                            नीचे दिए गए दो विकल्पों में से अपनी सदस्यता श्रेणी चुनें। फॉर्म भरते ही आपका आधिकारिक लोगो युक्त डिजिटल ID कार्ड तैयार हो जाएगा और सत्यापन हेतु मुख्य संयोजक के WhatsApp पर जुड़ जाएगा।
+                        </p>
+                    </div>
+
+                    <!-- Two-Tier Selection Tabs -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 border-b border-slate-200 bg-slate-50 p-2.5 gap-2.5">
+                        <button type="button" id="tabVolunteer" onclick="switchMembershipTab('volunteer')" class="p-3.5 rounded-xl text-left transition border-2 border-civicNavy-900 bg-white shadow-sm">
+                            <div class="flex items-center justify-between">
+                                <span class="font-extrabold text-civicNavy-900 text-sm sm:text-base">1. सक्रिय स्वयंसेवक सदस्यता</span>
+                                <span class="bg-green-100 text-civicGreen-700 text-xs font-extrabold px-2.5 py-0.5 rounded-full">₹0 निःशुल्क</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1">Active Volunteer Membership • जन-सेवा, शिक्षा, स्वास्थ्य व ग्रामीण जागरूकता हेतु</p>
+                        </button>
+
+                        <button type="button" id="tabPatron" onclick="switchMembershipTab('patron')" class="p-3.5 rounded-xl text-left transition border-2 border-transparent hover:bg-white/80">
+                            <div class="flex items-center justify-between">
+                                <span class="font-extrabold text-amber-800 text-sm sm:text-base">2. आजीवन / सहयोगी सदस्यता</span>
+                                <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-0.5 rounded-full">VIP Gold Card</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1">Patron / Associate Membership • सामाजिक शिविरों व कल्याण कार्यों में सहयोग हेतु</p>
+                        </button>
+                    </div>
+
+                    <!-- Registration Form -->
+                    <form id="memberRegForm" onsubmit="handleMemberRegistration(event)" class="p-5 sm:p-6 space-y-5">
+                        <input type="hidden" id="membershipCategory" value="volunteer">
+
+                        <!-- Patron / Associate Direct Coordination Notice (ZERO-QR) -->
+                        <div id="patronCoordinationBox" class="hidden bg-amber-50 border-2 border-amber-300 rounded-2xl p-4 sm:p-5 space-y-3">
+                            <div class="flex items-start gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center flex-shrink-0 text-lg shadow-sm">
+                                    <i class="fa-solid fa-handshake-angle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-extrabold text-amber-950 text-sm sm:text-base">पारदर्शी सहयोगी एवं आजीवन सदस्यता प्रक्रिया (बिना किसी ऑनलाइन भुगतान झंझट के)</h4>
+                                    <p class="text-xs text-amber-900 mt-1 leading-relaxed">
+                                        100% पारदर्शिता सुनिश्चित करने के लिए वेबसाइट पर कोई ऑटोमैटिक पेमेंट गेटवे या QR कोड नहीं रखा गया है। आजीवन/सहयोगी सदस्यता के लिए नीचे अपना विवरण भरें—फॉर्म सबमिट करते ही आपका <strong>गोल्ड-बॉर्डर वाला सहयोगी ID कार्ड</strong> बनेगा और सीधा सत्यापन व सहयोग समन्वय के लिए आपको मुख्य संयोजक <strong>कानाराम सैनी जी (+91 70152 90445)</strong> के WhatsApp से जोड़ा जाएगा।
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-white p-3.5 rounded-xl border border-amber-200 items-center">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">सहयोग श्रेणी चुनें (Associate Tier) *</label>
+                                    <select id="patronTier" class="w-full border border-slate-300 rounded-xl px-3 py-2 text-xs sm:text-sm font-bold text-civicNavy-900 outline-none focus:border-amber-500">
+                                        <option value="वार्षिक सहयोगी सदस्य (Associate Member)">वार्षिक सहयोगी सदस्य (Associate Member)</option>
+                                        <option value="आजीवन संरक्षक सदस्य (Lifetime Patron)">आजीवन संरक्षक सदस्य (Lifetime Patron)</option>
+                                        <option value="विशेष शिविर एवं सेवा सहयोगी">विशेष शिविर एवं सेवा सहयोगी</option>
+                                    </select>
+                                </div>
+                                <div class="flex flex-col sm:flex-row gap-2 pt-2 sm:pt-4">
+                                    <a href="tel:+917015290445" class="flex-1 bg-civicNavy-900 hover:bg-civicNavy-800 text-white text-xs font-bold py-2.5 px-3 rounded-xl text-center transition flex items-center justify-center gap-1.5">
+                                        <i class="fa-solid fa-phone"></i> सीधा कॉल करें
+                                    </a>
+                                    <a href="https://wa.me/917015290445?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%AE%20%E0%A4%9C%E0%A5%80,%20%E0%A4%AE%E0%A5%88%E0%A4%82%20THE%20COMMON%20CITIZEN%20(KRS)%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%86%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%A8/%E0%A4%B8%E0%A4%B9%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A5%80%20%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF%20%E0%A4%AC%E0%A4%A8%E0%A4%A8%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A4%E0%A4%BE%20%E0%A4%B9%E0%A5%82%E0%A4%81%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="flex-1 bg-civicGreen-700 hover:bg-civicGreen-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl text-center transition flex items-center justify-center gap-1.5">
+                                        <i class="fa-brands fa-whatsapp"></i> WhatsApp समन्वय
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Applicant Personal Details -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">पूरा नाम (Full Name) *</label>
+                                <input type="text" id="regName" required placeholder="अपना पूरा नाम लिखें" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">पिता / पति का नाम (Father's Name) *</label>
+                                <input type="text" id="regFatherName" required placeholder="पिता का नाम लिखें" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">मोबाइल / WhatsApp नंबर *</label>
+                                <input type="tel" id="regPhone" required pattern="[0-9]{10}" maxlength="10" placeholder="10 अंकों का मोबाइल नंबर" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">गाँव / वार्ड एवं पंचायत *</label>
+                                <input type="text" id="regVillage" required placeholder="उदा. करणपुरा, ग्राम पंचायत नरसिंहपुरी" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">जिला एवं राज्य (District & State) *</label>
+                                <input type="text" id="regDistrict" required placeholder="उदा. सीकर (राजस्थान) / रेवाड़ी (हरियाणा)" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">शिक्षा एवं व्यवसाय (Qualification / Profession) *</label>
+                                <input type="text" id="regProfession" required placeholder="उदा. स्नातक / अध्यापक / किसान / छात्र / व्यवसायी" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                            </div>
+                            <div class="sm:col-span-2">
+                                <label class="block text-xs font-bold text-slate-700 mb-1">रुचि एवं सेवा क्षेत्र (Interest Area) *</label>
+                                <select id="regWing" class="w-full border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm bg-white focus:border-civicNavy-900 focus:ring-2 focus:ring-civicNavy-900/10 outline-none">
+                                    <option value="Ground Action (ग्रामीण एवं पंचायत जन-समस्या निवारण)">Ground Action — ग्रामीण एवं पंचायत जन-समस्या निवारण</option>
+                                    <option value="Education & Youth (शिक्षा एवं युवा मार्गदर्शन प्रकोष्ठ)">Education & Youth — शिक्षा एवं युवा मार्गदर्शन प्रकोष्ठ</option>
+                                    <option value="Health & De-addiction (चिकित्सा, रक्तदान एवं नशा मुक्ति प्रकोष्ठ)">Health & De-addiction — चिकित्सा, रक्तदान एवं नशा मुक्ति प्रकोष्ठ</option>
+                                    <option value="Legal & RTI (RTI एवं विधिक जागरूकता सहायता)">Legal & RTI — RTI एवं विधिक जागरूकता सहायता</option>
+                                    <option value="Media & Awareness (सोशल मीडिया एवं जन-जागरूकता)">Media & Awareness — सोशल मीडिया एवं जन-जागरूकता</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Applicant's Own Provisional ID Photo Preview -->
+                        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
+                            <img id="applicantPhotoPreview" src="https://placehold.co/120x120/0f294a/FFFFFF?text=Photo" alt="Applicant Photo Preview" class="w-16 h-16 rounded-full object-cover border-2 border-civicNavy-900 shadow-sm flex-shrink-0">
+                            <div class="flex-1 text-center sm:text-left">
+                                <label for="applicantPhotoInput" class="block text-xs font-bold text-civicNavy-900 mb-1">
+                                    अपने स्वयं के प्रोविजनल ID कार्ड हेतु फोटो चुनें (वैकल्पिक)
+                                </label>
+                                <input type="file" id="applicantPhotoInput" accept="image/*" onchange="previewApplicantPhoto(event)" class="text-xs text-slate-600 file:mr-3 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-civicNavy-900 file:text-white hover:file:bg-civicNavy-800 cursor-pointer">
+                                <p class="text-[11px] text-slate-500 mt-1">फोटो न होने पर भी आपका नाम, गाँव व आधिकारिक लोगो वाला प्रोविजनल ID कार्ड तुरंत बन जाएगा।</p>
+                            </div>
+                        </div>
+
+                        <!-- Oath Checkbox -->
+                        <label class="flex items-start gap-2.5 text-xs text-slate-600 cursor-pointer select-none">
+                            <input type="checkbox" required class="mt-0.5 rounded text-civicNavy-900 focus:ring-civicNavy-900">
+                            <span>मैं सत्यनिष्ठा से घोषणा करता/करती हूँ कि मैं संगठन के 100% गैर-राजनीतिक, धर्मनिरपेक्ष एवं पारदर्शी नियमों का पालन करूँगा/करूँगी तथा ID कार्ड का किसी भी प्रकार का दुरुपयोग नहीं करूँगा/करूँगी।</span>
+                        </label>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="w-full bg-civicNavy-900 hover:bg-civicNavy-800 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-lg transition flex items-center justify-center gap-2 text-sm sm:text-base">
+                            <i class="fa-solid fa-id-badge text-amber-400 text-lg"></i> पंजीकरण पूरा करें एवं डिजिटल ID कार्ड जनरेट करें
+                        </button>
+                    </form>
+                </section>
+
+                <!-- SECTION 3: ORGANIZATIONAL CODE OF CONDUCT (आचार संहिता) -->
+                <section id="rules" class="bg-civicNavy-900 text-white rounded-2xl shadow-md p-5 sm:p-6">
+                    <div class="flex items-center gap-3 mb-4 border-b border-civicNavy-800 pb-3">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 text-amber-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-white text-lg leading-tight">संगठन की आचार संहिता एवं सख्त नियम (Code of Conduct)</h3>
+                            <p class="text-xs text-slate-300">अनुशासन, विश्वसनीयता और निष्पक्ष जन-सेवा के 5 अटल सिद्धांत</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-200 leading-relaxed">
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-green-400 mt-0.5"></i>
+                            <span><strong>100% गैर-राजनीतिक मंच:</strong> संगठन के नाम, बैनर या ID कार्ड का उपयोग किसी राजनीतिक दल या चुनाव प्रचार हेतु सख्त वर्जित है।</span>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-green-400 mt-0.5"></i>
+                            <span><strong>पूर्ण पारदर्शी रिकॉर्ड:</strong> सदस्यता रजिस्टर और प्रत्येक सामाजिक गतिविधि का विवरण सभी सदस्यों के लिए निःशुल्क व खुला रहेगा।</span>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-green-400 mt-0.5"></i>
+                            <span><strong>30 दिन प्रोबेशन नियम:</strong> हर नया सदस्य पहले सक्रिय स्वयंसेवक के रूप में जुड़ता है; ज़मीनी सक्रियता के बाद ही जिम्मेदारी दी जाती है।</span>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-green-400 mt-0.5"></i>
+                            <span><strong>दुरुपयोग पर तत्काल निष्कासन:</strong> किसी थाने या दफ्तर में व्यक्तिगत धौंस जमाने पर सदस्यता तत्काल प्रभाव से रद्द कर दी जाएगी।</span>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- RIGHT SIDEBAR (4 COLS) — LIVE FACEBOOK PAGE FEED & CITIZEN HELPDESK -->
+            <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
+
+                <!-- 1. Official Facebook Page Live Feed & Reels Card (Updated with Exact Link: https://www.facebook.com/share/17snsPAEMd/) -->
+                <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden">
+                    <!-- Facebook Header -->
+                    <div class="bg-[#1877F2] text-white p-4 flex items-center justify-between">
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-brands fa-facebook text-2xl"></i>
+                            <div>
+                                <h3 class="font-bold text-sm leading-tight">The Common Citizens</h3>
+                                <p class="text-[11px] text-blue-100">आधिकारिक Facebook पेज एवं रील्स</p>
+                            </div>
+                        </div>
+                        <a href="https://www.facebook.com/share/17snsPAEMd/" target="_blank" rel="noopener noreferrer" class="bg-white text-[#1877F2] hover:bg-blue-50 text-xs font-extrabold px-3 py-1.5 rounded-lg shadow-sm transition">
+                            <i class="fa-solid fa-thumbs-up mr-1"></i> Follow
+                        </a>
+                    </div>
+
+                    <!-- Facebook Page Plugin Iframe -->
+                    <div class="bg-slate-50 flex justify-center items-center overflow-hidden border-b border-slate-200">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17snsPAEMd%2F&tabs=timeline&width=340&height=430&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+                            width="340"
+                            height="430"
+                            style="border:none;overflow:hidden;width:100%;"
+                            scrolling="no"
+                            frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                            title="The Common Citizens Official Facebook Feed">
+                        </iframe>
+                    </div>
+
+                    <!-- Highlighted Recent Posts & Direct Link Card (Ensures seamless mobile & desktop access) -->
+                    <div class="p-4 bg-white space-y-3">
+                        <div class="flex items-center justify-between text-xs border-b border-slate-100 pb-2">
+                            <span class="font-extrabold text-civicNavy-900"><i class="fa-solid fa-fire text-civicSaffron-500 mr-1"></i> ताज़ा पोस्ट्स एवं रील्स अपडेट्स</span>
+                            <span class="text-[11px] font-bold text-civicGreen-700">Live Page</span>
+                        </div>
+
+                        <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-3 space-y-1">
+                            <span class="text-[10px] font-bold text-[#1877F2] bg-blue-50 px-2 py-0.5 rounded">नागरिक जागरूकता अभियान</span>
+                            <h4 class="text-xs font-extrabold text-civicNavy-900">साइबर ठगी से बचाव: अपना बैंक खाता, ATM या SIM किसी को किराए पर न दें!</h4>
+                            <p class="text-[11px] text-slate-600 leading-relaxed">चंद रुपयों के लालच में फर्जी खातों में अपना विवरण देना जेल की सलाखों तक पहुंचा सकता है। सावधान रहें, सुरक्षित रहें।</p>
+                        </div>
+
+                        <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-3 space-y-1">
+                            <span class="text-[10px] font-bold text-civicGreen-700 bg-green-50 px-2 py-0.5 rounded">क्षेत्रीय विकास आवाज़</span>
+                            <h4 class="text-xs font-extrabold text-civicNavy-900">पेयजल, टूटी सड़कें और खंडेला रेलवे कनेक्टिविटी जन-आंदोलन</h4>
+                            <p class="text-[11px] text-slate-600 leading-relaxed">ग्रामीण क्षेत्रों में बुनियादी सुविधाओं की बदहाली के विरुद्ध आम नागरिकों की आवाज़ को प्रशासन तक पहुंचाने की मुहिम।</p>
+                        </div>
+
+                        <a href="https://www.facebook.com/share/17snsPAEMd/" target="_blank" rel="noopener noreferrer" class="w-full bg-[#1877F2] hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm transition">
+                            <i class="fa-brands fa-facebook text-base"></i> Facebook पेज खोलें, रील्स देखें व Follow करें
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 2. Jan-Samasya Sahayata Kendra (RTI & 181 Portal Helpdesk) -->
+                <div id="helpdesk" class="bg-white rounded-2xl shadow-md border-2 border-civicSaffron-500/30 p-5 space-y-3.5">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-orange-50 text-civicSaffron-600 flex items-center justify-center text-lg border border-orange-200 flex-shrink-0">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-civicNavy-900 text-base leading-tight">जन-समस्या सहायता केंद्र</h3>
+                            <p class="text-[11px] font-semibold text-civicGreen-700">RTI एवं राजस्थान संपर्क (181) सहायता</p>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        आपके गाँव या पंचायत में बिजली, पानी, सड़क, पेंशन या सरकारी दफ्तर में भ्रष्टाचार से जुड़ी कोई समस्या है? नीचे लिखें—हमारी टीम निःशुल्क RTI व 181 पोर्टल के माध्यम से समाधान कराएगी।
+                    </p>
+                    <form onsubmit="handleHelpdeskComplaint(event)" class="space-y-2.5">
+                        <input type="text" id="helpName" required placeholder="आपका नाम एवं मोबाइल नंबर" class="w-full border border-slate-300 rounded-xl px-3 py-2 text-xs outline-none focus:border-civicNavy-900">
+                        <input type="text" id="helpVillage" required placeholder="गाँव / पंचायत / जिला" class="w-full border border-slate-300 rounded-xl px-3 py-2 text-xs outline-none focus:border-civicNavy-900">
+                        <textarea id="helpIssue" rows="3" required placeholder="अपनी समस्या संक्षेप में लिखें..." class="w-full border border-slate-300 rounded-xl px-3 py-2 text-xs outline-none focus:border-civicNavy-900"></textarea>
+                        <button type="submit" class="w-full bg-civicGreen-700 hover:bg-civicGreen-600 text-white font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-base"></i> सीधे WhatsApp पर भेजें (+91 70152 90445)
+                        </button>
+                    </form>
+                </div>
+
+            </aside>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-civicNavy-950 text-slate-300 border-t-4 border-civicSaffron-500 mt-10">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pb-6 border-b border-civicNavy-800">
+                <div class="flex items-start gap-3.5">
+                    <div class="w-16 h-12 rounded-xl bg-slate-950 p-0.5 flex-shrink-0 overflow-hidden shadow border border-slate-700">
+                        <img src="1000975713.jpg" onerror="this.onerror=null; this.src=getFallbackEmblemDataURI();" alt="THE COMMON CITIZEN Logo" class="w-full h-full object-contain rounded-lg">
+                    </div>
+                    <div>
+                        <h4 class="text-white font-extrabold text-lg">THE COMMON CITIZEN <span class="text-civicSaffron-500">(KRS)</span></h4>
+                        <p class="text-xs text-amber-300 font-semibold mt-0.5">जन-अधिकार एवं सेवा मंच • For a Better Society</p>
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                            100% गैर-राजनीतिक, धर्मनिरपेक्ष एवं पूर्ण पारदर्शी सामाजिक संगठन। सभी रिकॉर्ड हर नागरिक के लिए निःशुल्क उपलब्ध।
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold text-sm mb-2">प्रमुख प्रकोष्ठ (Organizational Wings)</h5>
+                    <ul class="text-xs space-y-1.5 text-slate-400">
+                        <li>• शिक्षा एवं युवा मार्गदर्शन प्रकोष्ठ</li>
+                        <li>• चिकित्सा, रक्तदान एवं नशा मुक्ति प्रकोष्ठ</li>
+                        <li>• ग्रामीण, किसान एवं पंचायत जन-समस्या निवारण</li>
+                        <li>• RTI, साइबर सुरक्षा एवं नागरिक अधिकार प्रकोष्ठ</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold text-sm mb-2">आधिकारिक संपर्क एवं सोशल मीडिया</h5>
+                    <p class="text-xs text-slate-300"><strong>संस्थापक एवं मुख्य संयोजक:</strong> कानाराम सैनी (K. L. Saini)</p>
+                    <p class="text-xs text-slate-300 mt-1"><strong>आधिकारिक नंबर / WhatsApp:</strong> <a href="tel:+917015290445" class="text-amber-300 font-bold">+91 70152 90445</a></p>
+                    <p class="text-xs text-slate-300 mt-1"><strong>Facebook पेज:</strong> <a href="https://www.facebook.com/share/17snsPAEMd/" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline font-semibold">The Common Citizens (यहाँ जुड़ें)</a></p>
+                </div>
+            </div>
+            <div class="pt-4 flex flex-wrap justify-between items-center text-xs text-slate-400 gap-2">
+                <p>© 2026 THE COMMON CITIZEN (KRS) • सर्वाधिकार सुरक्षित।</p>
+                <p class="text-slate-300 font-semibold">Aware Citizen • Empowered Society</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BIODATA DETAIL MODAL -->
+    <div id="bioModal" class="fixed inset-0 bg-black/75 backdrop-blur-sm z-50 hidden items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white rounded-2xl max-w-lg w-full p-5 sm:p-6 relative shadow-2xl my-auto border-t-4 border-civicNavy-900">
+            <button onclick="closeBioModal()" aria-label="Close modal" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="flex items-center gap-4 border-b border-slate-100 pb-4">
+                <div class="tricolor-avatar-ring rounded-full flex-shrink-0">
+                    <img id="bioModalPhoto" src="" alt="Leader Photo" class="w-20 h-20 rounded-full object-cover object-top bg-white">
+                </div>
+                <div>
+                    <span id="bioModalBadge" class="text-[11px] font-extrabold bg-orange-50 text-civicSaffron-600 px-2.5 py-0.5 rounded-full border border-orange-200"></span>
+                    <h3 id="bioModalName" class="text-xl font-extrabold text-civicNavy-900 mt-1"></h3>
+                    <p id="bioModalRole" class="text-xs font-bold text-civicGreen-700"></p>
+                </div>
+            </div>
+            <div class="mt-4 space-y-3 text-xs sm:text-sm text-slate-700">
+                <div class="grid grid-cols-2 gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-200">
+                    <div>
+                        <span class="text-[11px] text-slate-500 block">योग्यता / पेशा:</span>
+                        <strong id="bioModalQual" class="text-civicNavy-900"></strong>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 block">कार्यक्षेत्र / इकाई:</span>
+                        <strong id="bioModalLoc" class="text-civicNavy-900"></strong>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-civicNavy-900 mb-1">संगठन में भूमिका एवं परिचय:</h4>
+                    <p id="bioModalDesc" class="leading-relaxed text-slate-600"></p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-civicNavy-900 mb-1">प्रमुख ज़िम्मेदारियाँ (Key Responsibilities):</h4>
+                    <ul id="bioModalResp" class="list-disc list-inside space-y-1 text-slate-600"></ul>
+                </div>
+            </div>
+            <div class="mt-5 flex gap-2">
+                <button id="bioModalIdBtn" type="button" class="flex-1 bg-civicNavy-900 hover:bg-civicNavy-800 text-white font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 transition">
+                    <i class="fa-solid fa-id-card text-amber-400"></i> आधिकारिक ID कार्ड देखें
+                </button>
+                <button onclick="closeBioModal()" type="button" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm transition">
+                    बंद करें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- OFFICIAL DIGITAL ID CARD MODAL -->
+    <div id="idCardModal" class="fixed inset-0 bg-black/75 backdrop-blur-sm z-50 hidden items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white rounded-2xl max-w-md w-full p-4 sm:p-6 relative shadow-2xl my-auto">
+            <button onclick="closeIdCardModal()" aria-label="Close modal" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="text-center mb-3">
+                <span id="modalStatusBadge" class="text-[11px] font-extrabold uppercase tracking-wider bg-green-100 text-civicGreen-700 px-3 py-1 rounded-full">
+                    Verified Official Digital ID Card
+                </span>
+            </div>
+
+            <!-- PRINTABLE OFFICIAL CARD -->
+            <div id="printableOfficialCard" class="id-card-bg navy-id-frame rounded-2xl overflow-hidden mx-auto max-w-[330px]">
+                <!-- Top Navy Header with Official Logo -->
+                <div class="bg-civicNavy-900 text-white pt-3 pb-2.5 px-3 text-center">
+                    <div class="w-16 h-11 mx-auto mb-1.5 bg-slate-950 rounded-lg p-0.5 shadow overflow-hidden border border-white/20">
+                        <img src="1000975713.jpg" onerror="this.onerror=null; this.src=getFallbackEmblemDataURI();" alt="THE COMMON CITIZEN Logo" class="w-full h-full object-contain rounded">
+                    </div>
+                    <h4 class="font-extrabold text-base tracking-wide leading-tight">THE COMMON CITIZEN (KRS)</h4>
+                    <p class="text-[10px] text-amber-300 font-semibold">जन-अधिकार एवं सेवा मंच • For a Better Society</p>
+                </div>
+
+                <!-- Tricolor Strip -->
+                <div class="tricolor-strip w-full"></div>
+
+                <!-- Member Photo & Details -->
+                <div class="p-4 text-center space-y-2.5">
+                    <div class="relative inline-block">
+                        <img id="cardMemberPhoto" src="" alt="Member Portrait" class="w-28 h-28 rounded-full object-cover object-top border-4 border-civicNavy-900 shadow-md mx-auto bg-slate-100">
+                        <span class="absolute bottom-1 right-1 bg-civicGreen-700 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs border-2 border-white shadow">
+                            <i class="fa-solid fa-check"></i>
+                        </span>
+                    </div>
+
+                    <div>
+                        <h3 id="cardMemberName" class="text-xl font-extrabold text-civicNavy-900 uppercase tracking-tight leading-tight">
+                            MEMBER NAME
+                        </h3>
+                        <p id="cardMemberRole" class="text-xs sm:text-sm font-bold text-amber-700 mt-0.5">
+                            Designation
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-left text-[11px] space-y-1 text-slate-700">
+                        <div class="flex justify-between">
+                            <span class="text-slate-500 font-semibold">ID क्रमांक:</span>
+                            <span id="cardMemberIdNo" class="font-mono font-bold text-civicNavy-900">TCC-KRS-001</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-500 font-semibold">योग्यता/पेशा:</span>
+                            <span id="cardMemberQual" class="font-semibold text-right">Social Worker</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-500 font-semibold">क्षेत्र/इकाई:</span>
+                            <span id="cardMemberArea" class="font-semibold text-right">Rajasthan / Haryana</span>
+                        </div>
+                    </div>
+
+                    <!-- Official Barcode Visual -->
+                    <div class="pt-1 flex flex-col items-center">
+                        <div class="h-6 w-40 bg-[repeating-linear-gradient(90deg,#0f294a,#0f294a_2px,transparent_2px,transparent_4px,#0f294a_4px,#0f294a_5px,transparent_5px,transparent_8px)] opacity-85"></div>
+                        <span class="text-[9px] text-slate-500 font-mono mt-0.5">आधिकारिक संपर्क सूत्र: +91 70152 90445</span>
+                    </div>
+                </div>
+
+                <!-- Card Footer -->
+                <div id="cardFooterBar" class="bg-civicNavy-900 text-white py-2 px-3 text-center text-[11px] font-bold tracking-wide">
+                    Aware Citizen • Empowered Society
+                </div>
+            </div>
+
+            <!-- Modal Action Buttons -->
+            <div class="mt-4 space-y-2">
+                <a id="modalWhatsappShareBtn" href="#" target="_blank" rel="noopener noreferrer" class="w-full bg-civicGreen-700 hover:bg-civicGreen-600 text-white font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow transition">
+                    <i class="fa-brands fa-whatsapp text-base"></i> सत्यापन हेतु WhatsApp पर भेजें (+91 70152 90445)
+                </a>
+                <div class="grid grid-cols-2 gap-2">
+                    <button onclick="window.print()" class="bg-civicNavy-900 hover:bg-civicNavy-800 text-white font-bold py-2 px-3 rounded-xl text-xs flex items-center justify-center gap-1.5 transition">
+                        <i class="fa-solid fa-print"></i> कार्ड प्रिंट / Save PDF
+                    </button>
+                    <button onclick="closeIdCardModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-2 px-3 rounded-xl text-xs transition">
+                        बंद करें
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Toast Message -->
+    <div id="toastBox" class="fixed bottom-5 right-5 z-50 bg-civicNavy-900 text-white px-4 py-3 rounded-xl shadow-xl border-l-4 border-civicSaffron-500 text-xs sm:text-sm font-semibold hidden items-center gap-2.5">
+        <i class="fa-solid fa-circle-check text-green-400 text-base"></i>
+        <span id="toastMessage">संदेश</span>
+    </div>
+
+    <script>
+        // Fallback SVG Data URI for 'The Common Citizen - For a Better Society' Emblem if local image isn't uploaded yet
+        function getFallbackEmblemDataURI() {
+            const svg = `<svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg">
+                <rect width="320" height="210" fill="#091a30"/>
+                <path d="M 18,125 C 12,48 110,8 205,34 C 125,22 42,56 32,125 Z" fill="#f97316"/>
+                <path d="M 32,125 C 42,56 125,22 205,34 C 132,30 56,64 46,125 Z" fill="#ffffff"/>
+                <path d="M 46,125 C 56,64 132,30 205,34 C 140,38 70,72 58,125 Z" fill="#15803d"/>
+                <circle cx="52" cy="96" r="10" fill="#2563eb"/>
+                <path d="M 28,104 Q 52,122 72,102 Q 64,138 42,175 Q 48,136 28,104 Z" fill="#2563eb"/>
+                <circle cx="88" cy="70" r="12" fill="#f97316"/>
+                <path d="M 56,66 Q 88,96 126,56 Q 108,112 46,178 Q 74,116 56,66 Z" fill="#f97316"/>
+                <circle cx="104" cy="116" r="9" fill="#16a34a"/>
+                <path d="M 86,120 Q 104,132 124,114 Q 104,148 52,178 Q 84,146 86,120 Z" fill="#16a34a"/>
+                <text x="150" y="68" font-family="sans-serif" font-weight="800" font-style="italic" font-size="25" fill="#ffffff">The</text>
+                <text x="116" y="102" font-family="sans-serif" font-weight="800" font-style="italic" font-size="37" fill="#ffffff">Common</text>
+                <text x="122" y="140" font-family="sans-serif" font-weight="800" font-style="italic" font-size="40" fill="#ef4444">Citizen</text>
+                <path d="M 92,154 Q 202,146 310,152 L 302,174 Q 202,168 98,176 Z" fill="#1e3a8a"/>
+                <text x="201" y="168" font-family="sans-serif" font-weight="700" font-style="italic" font-size="14.5" fill="#ffffff" text-anchor="middle">For a <tspan fill="#facc15">Better</tspan> Society</text>
+            </svg>`;
+            return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+        }
+
+        // Clean Ayurvedic Medical Emblem Data URI for Dr. Rakesh (BAMS)
+        const drRakeshAvatar = 'data:image/svg+xml;utf8,' + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#ecfdf5"/><circle cx="100" cy="100" r="82" fill="#ffffff" stroke="#15803d" stroke-width="5"/><rect x="86" y="46" width="28" height="108" rx="6" fill="#15803d"/><rect x="46" y="86" width="108" height="28" rx="6" fill="#15803d"/><path d="M100,130 C72,115 68,85 100,66 C132,85 128,115 100,130 Z" fill="#f97316" opacity="0.88"/><circle cx="100" cy="100" r="10" fill="#ffffff"/></svg>`);
+
+        // 1. VERIFIED CORE LEADERSHIP DATA (READ-ONLY)
+        const coreLeadershipData = [
+            {
+                id: "TCC-KRS-001",
+                category: "founders",
+                name: "KANARAM SAINI (K. L. SAINI)",
+                hindiName: "कानाराम सैनी (के. एल. सैनी)",
+                role: "Founder & Chief Coordinator",
+                hindiRole: "संस्थापक एवं मुख्य संयोजक",
+                qualification: "सामाजिक चिंतक एवं संगठन निर्माता",
+                location: "खंडेला (राजस्थान) • समन्वय कार्यालय: रेवाड़ी (हरियाणा)",
+                type: "core",
+                badge: "संस्थापक एवं संयोजक",
+                photo: "1000797610.jpg",
+                fallbackPhoto: "https://placehold.co/180x180/0f294a/FFFFFF?text=K.L.+Saini",
+                bio: "आम नागरिक के संवैधानिक अधिकारों, पूर्ण पारदर्शिता, भ्रष्टाचार-मुक्त प्रशासन और युवा सशक्तिकरण के लिए THE COMMON CITIZEN (KRS) की स्थापना एवं राष्ट्रीय संचालन।",
+                responsibilities: [
+                    "संगठन की राष्ट्रीय नीति निर्धारण, पारदर्शी रिकॉर्ड संचालन एवं विस्तार",
+                    "RTI एवं राजस्थान संपर्क (181) पोर्टल के माध्यम से जन-समस्याओं का त्वरित निवारण",
+                    "राजस्थान व हरियाणा की सभी क्षेत्रीय इकाइयों व प्रकोष्ठों के बीच समन्वय"
+                ]
+            },
+            {
+                id: "TCC-KRS-002",
+                category: "founders",
+                name: "DR. VIJENDRA SAINI",
+                hindiName: "डॉ. विजेंद्र सैनी",
+                role: "Honorary Chief Medical & De-addiction Advisor",
+                hindiRole: "मानद मुख्य चिकित्सा एवं नशा मुक्ति सलाहकार",
+                qualification: "MBBS, MD (Psychiatrist)",
+                location: "जोधपुर संभाग / शेखावाटी, राजस्थान",
+                type: "core",
+                badge: "मानद मुख्य सलाहकार",
+                photo: "1000976201.jpg",
+                fallbackPhoto: "https://placehold.co/180x180/0f294a/FFFFFF?text=Dr.+Vijendra",
+                bio: "वरिष्ठ मनोचिकित्सक एवं सह-संस्थापक मार्गदर्शक। युवाओं में नशा मुक्ति, तनाव प्रबंधन, मोबाइल लत से बचाव और मानसिक स्वास्थ्य जागरूकता अभियान के मुख्य प्रेरणास्रोत।",
+                responsibilities: [
+                    "नशा मुक्ति एवं मानसिक स्वास्थ्य जागरूकता हेतु नीतिगत मार्गदर्शन",
+                    "युवाओं व विद्यार्थियों के लिए तनाव एवं डिप्रेशन मुक्ति जागरूकता संदेश",
+                    "चिकित्सा प्रकोष्ठ के स्वास्थ्य शिविरों का तकनीकी मार्गदर्शन"
+                ]
+            },
+            {
+                id: "TCC-KRS-003",
+                category: "wings",
+                name: "VINOD KUMAR SAINI",
+                hindiName: "विनोद कुमार सैनी (करणपुरा)",
+                role: "Education & Youth Cell In-Charge",
+                hindiRole: "शिक्षा एवं युवा प्रकोष्ठ प्रभारी",
+                qualification: "M.Sc., B.Ed. (अध्यापक)",
+                location: "करणपुरा, ग्राम पंचायत नरसिंहपुरी (सीकर)",
+                type: "core",
+                badge: "शिक्षा एवं युवा प्रभारी",
+                photo: "1000975495.jpg",
+                fallbackPhoto: "https://placehold.co/180x180/0f294a/FFFFFF?text=Vinod+Saini",
+                bio: "शिक्षा के क्षेत्र में सक्रिय योगदान, ग्रामीण विद्यार्थियों को सही करियर मार्गदर्शन देने और युवाओं को सामाजिक कुरीतियों व नशे के विरुद्ध एकजुट करने का नेतृत्व।",
+                responsibilities: [
+                    "स्कूलों व ग्राम स्तर पर करियर गाइडेंस एवं साइबर सुरक्षा संवाद",
+                    "प्रतिभावान विद्यार्थियों का सम्मान समारोह एवं शैक्षणिक सहयोग",
+                    "नरसिंहपुरी एवं आसपास की पंचायतों में युवा टीम का विस्तार"
+                ]
+            },
+            {
+                id: "TCC-KRS-004",
+                category: "wings",
+                name: "PREMCHAND SAINI",
+                hindiName: "प्रेमचंद सैनी",
+                role: "Media In-Charge",
+                hindiRole: "मीडिया एवं सोशल मीडिया प्रभारी",
+                qualification: "मीडिया एवं जन-संपर्क विशेषज्ञ",
+                location: "खंडेला / सीकर, राजस्थान",
+                type: "core",
+                badge: "मीडिया प्रभारी",
+                photo: "1000974536.png",
+                fallbackPhoto: "https://placehold.co/180x180/0f294a/FFFFFF?text=Premchand",
+                bio: "संगठन की आवाज़ को प्रिंट मीडिया, डिजिटल प्लेटफॉर्म और सोशल मीडिया के माध्यम से जन-जन तक पहुँचाने तथा जन-जागरूकता अभियान चलाने की जिम्मेदारी।",
+                responsibilities: [
+                    "आधिकारिक फेसबुक पेज, रील्स व डिजिटल अभियानों का संचालन",
+                    "प्रेस विज्ञप्ति, ग्राउंड रिपोर्टिंग और समाचार कवरेज समन्वय",
+                    "साइबर सुरक्षा एवं नागरिक अधिकार सीरीज का प्रकाशन"
+                ]
+            },
+            {
+                id: "TCC-KRS-005",
+                category: "wings",
+                name: "VIKASH MEHRA",
+                hindiName: "विकास मेहरा",
+                role: "Zonal In-Charge - Bajor",
+                hindiRole: "क्षेत्रीय प्रभारी - बाजोर",
+                qualification: "समाजसेवी एवं युवा नेतृत्व",
+                location: "बाजोर एवं आसपास की पंचायतें (सीकर)",
+                type: "core",
+                badge: "क्षेत्रीय प्रभारी - बाजोर",
+                photo: "1000974543.png",
+                fallbackPhoto: "https://placehold.co/180x180/0f294a/FFFFFF?text=Vikash+Mehra",
+                bio: "बाजोर व आसपास की ग्राम पंचायतों में ग्रामीणों की पेयजल, सड़क, बिजली और बुनियादी समस्याओं को चिन्हित कर ज़मीनी स्तर पर संगठन को मजबूत करना।",
+                responsibilities: [
+                    "ग्राम पंचायत स्तर पर जन-समस्याओं का सर्वेक्षण एवं दस्तावेजीकरण",
+                    "प्रशासनिक अधिकारियों को ज्ञापन सौंपने व फॉलो-अप की ज़िम्मेदारी",
+                    "बाजोर क्षेत्र में सक्रिय स्वयंसेवकों की टीम तैयार करना"
+                ]
+            },
+            {
+                id: "TCC-KRS-006",
+                category: "wings",
+                name: "DR. RAKESH",
+                hindiName: "डॉ. राकेश जी",
+                role: "Medical Cell In-Charge",
+                hindiRole: "चिकित्सा प्रकोष्ठ प्रभारी",
+                qualification: "BAMS (आयुर्वेद चिकित्सक)",
+                location: "शेखावाटी क्षेत्र, राजस्थान",
+                type: "core",
+                badge: "चिकित्सा प्रभारी",
+                photo: drRakeshAvatar,
+                fallbackPhoto: drRakeshAvatar,
+                bio: "ग्रामीण क्षेत्रों में निःशुल्क स्वास्थ्य परामर्श, मौसमी बीमारियों से बचाव, आयुर्वेद जागरूकता और प्राथमिक चिकित्सा सहायता शिविरों का संचालन।",
+                responsibilities: [
+                    "गाँवों में निःशुल्क स्वास्थ्य जाँच एवं परामर्श शिविरों का आयोजन",
+                    "आपातकालीन रक्तदान एवं अस्पताल सहायता समन्वय",
+                    "साप्ताहिक स्वास्थ्य एवं रोग प्रतिरोधक जागरूकता संदेश"
+                ]
+            }
+        ];
+
+        let currentFilter = 'all';
+        let applicantUploadedPhoto = null;
+        let sessionRegisteredMembers = [];
+
+        function getAllDisplayMembers() {
+            return [...coreLeadershipData, ...sessionRegisteredMembers];
+        }
+
+        function filterDirectory(category) {
+            currentFilter = category;
+            ['all', 'founders', 'wings'].forEach(key => {
+                const btn = document.getElementById(`filter-${key}`);
+                if (!btn) return;
+                if (key === category) {
+                    btn.className = "px-3 py-1.5 rounded-lg bg-civicNavy-900 text-white shadow-sm transition";
+                } else {
+                    btn.className = "px-3 py-1.5 rounded-lg text-slate-600 hover:text-civicNavy-900 transition";
+                }
+            });
+            renderMembersDirectory();
+        }
+
+        function renderMembersDirectory() {
+            const grid = document.getElementById('membersDirectoryGrid');
+            const members = getAllDisplayMembers();
+            grid.innerHTML = '';
+
+            members.forEach((member, idx) => {
+                if (currentFilter === 'founders' && member.category !== 'founders') return;
+                if (currentFilter === 'wings' && member.category !== 'wings' && member.type === 'core') return;
+
+                const isPatron = member.type === 'patron';
+                const badgeStyle = isPatron
+                    ? 'bg-amber-100 text-amber-900 border-amber-300'
+                    : (member.type === 'core' ? 'bg-blue-50 text-civicNavy-900 border-blue-200' : 'bg-green-50 text-civicGreen-700 border-green-200');
+
+                const cardHtml = `
+                    <div class="bg-white rounded-2xl border ${isPatron ? 'border-amber-300' : 'border-slate-200'} p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-3">
+                        <div class="flex items-start gap-3.5">
+                            <div class="tricolor-avatar-ring rounded-full flex-shrink-0">
+                                <img src="${member.photo}" onerror="this.onerror=null; this.src='${member.fallbackPhoto}';" alt="${member.name}" class="w-16 h-16 rounded-full object-cover object-top bg-white">
+                            </div>
+                            <div class="min-w-0 flex-1">
+                                <div class="flex flex-wrap items-center justify-between gap-1">
+                                    <span class="text-[10px] font-extrabold px-2 py-0.5 rounded-full border ${badgeStyle}">${member.badge}</span>
+                                    <span class="text-[10px] font-mono text-slate-400">${member.id}</span>
+                                </div>
+                                <h3 class="font-extrabold text-civicNavy-900 text-base truncate mt-1">${member.hindiName}</h3>
+                                <p class="text-xs font-bold text-civicSaffron-600 leading-snug">${member.hindiRole}</p>
+                                <p class="text-[11px] text-slate-500 mt-0.5"><i class="fa-solid fa-graduation-cap mr-1"></i>${member.qualification}</p>
+                                <p class="text-[11px] text-slate-500"><i class="fa-solid fa-location-dot mr-1 text-civicGreen-700"></i>${member.location}</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-slate-600 bg-slate-50 p-2.5 rounded-xl leading-relaxed line-clamp-2">
+                            ${member.bio}
+                        </p>
+                        <div class="grid grid-cols-2 gap-2">
+                            <button type="button" onclick="openBioModal(${idx})" class="bg-slate-100 hover:bg-slate-200 text-civicNavy-900 text-xs font-bold py-2 px-2.5 rounded-xl transition flex items-center justify-center gap-1.5">
+                                <i class="fa-solid fa-address-card text-civicSaffron-600"></i> पूरा बायोडाटा देखें
+                            </button>
+                            <button type="button" onclick="openIdCardModal(${idx})" class="bg-civicNavy-900 hover:bg-civicNavy-800 text-white text-xs font-bold py-2 px-2.5 rounded-xl transition flex items-center justify-center gap-1.5">
+                                <i class="fa-solid fa-id-card text-amber-400"></i> आधिकारिक ID कार्ड देखें
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.insertAdjacentHTML('beforeend', cardHtml);
+            });
+        }
+
+        function openBioModal(index) {
+            const member = getAllDisplayMembers()[index];
+            if (!member) return;
+
+            const bioImg = document.getElementById('bioModalPhoto');
+            bioImg.src = member.photo;
+            bioImg.onerror = function() { this.onerror = null; this.src = member.fallbackPhoto; };
+
+            document.getElementById('bioModalBadge').textContent = `${member.badge} • ${member.id}`;
+            document.getElementById('bioModalName').textContent = `${member.hindiName} (${member.name})`;
+            document.getElementById('bioModalRole').textContent = `${member.hindiRole} — ${member.role}`;
+            document.getElementById('bioModalQual').textContent = member.qualification;
+            document.getElementById('bioModalLoc').textContent = member.location;
+            document.getElementById('bioModalDesc').textContent = member.bio;
+
+            const respList = document.getElementById('bioModalResp');
+            respList.innerHTML = '';
+            (member.responsibilities || []).forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = item;
+                respList.appendChild(li);
+            });
+
+            document.getElementById('bioModalIdBtn').onclick = function() {
+                closeBioModal();
+                openIdCardModal(index);
+            };
+
+            const modal = document.getElementById('bioModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeBioModal() {
+            const modal = document.getElementById('bioModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function switchMembershipTab(type) {
+            const catInput = document.getElementById('membershipCategory');
+            const tabVol = document.getElementById('tabVolunteer');
+            const tabPat = document.getElementById('tabPatron');
+            const patronBox = document.getElementById('patronCoordinationBox');
+
+            catInput.value = type;
+
+            if (type === 'volunteer') {
+                tabVol.className = "p-3.5 rounded-xl text-left transition border-2 border-civicNavy-900 bg-white shadow-sm";
+                tabPat.className = "p-3.5 rounded-xl text-left transition border-2 border-transparent hover:bg-white/80";
+                patronBox.classList.add('hidden');
+            } else {
+                tabPat.className = "p-3.5 rounded-xl text-left transition border-2 border-amber-500 bg-white shadow-sm";
+                tabVol.className = "p-3.5 rounded-xl text-left transition border-2 border-transparent hover:bg-white/80";
+                patronBox.classList.remove('hidden');
+            }
+        }
+
+        function previewApplicantPhoto(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                applicantUploadedPhoto = e.target.result;
+                document.getElementById('applicantPhotoPreview').src = applicantUploadedPhoto;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handleMemberRegistration(event) {
+            event.preventDefault();
+            const category = document.getElementById('membershipCategory').value;
+            const name = document.getElementById('regName').value.trim();
+            const fatherName = document.getElementById('regFatherName').value.trim();
+            const phone = document.getElementById('regPhone').value.trim();
+            const village = document.getElementById('regVillage').value.trim();
+            const district = document.getElementById('regDistrict').value.trim();
+            const profession = document.getElementById('regProfession').value.trim();
+            const wing = document.getElementById('regWing').value;
+            const patronTier = document.getElementById('patronTier').value;
+
+            const allMembers = getAllDisplayMembers();
+            const nextNum = String(allMembers.length + 1).padStart(3, '0');
+            const generatedId = `TCC-KRS-${nextNum}`;
+            const fullLocation = `${village}, ${district}`;
+
+            const defaultAvatar = `https://placehold.co/180x180/${category === 'patron' ? 'd97706' : '0f294a'}/FFFFFF?text=${encodeURIComponent(name.split(' ')[0])}`;
+            const photoUrl = applicantUploadedPhoto || defaultAvatar;
+
+            const newMember = {
+                id: generatedId,
+                category: "wings",
+                name: name.toUpperCase(),
+                hindiName: name,
+                fatherName: fatherName,
+                role: category === 'patron' ? 'Associate / Patron Member' : 'Provisional Active Volunteer',
+                hindiRole: category === 'patron' ? patronTier : `सक्रिय स्वयंसेवक (${wing.split('—')[0].trim()})`,
+                qualification: profession,
+                location: fullLocation,
+                phone: phone,
+                type: category,
+                badge: category === 'patron' ? 'आजीवन / सहयोगी सदस्य' : 'नव-पंजीकृत स्वयंसेवक',
+                photo: photoUrl,
+                fallbackPhoto: defaultAvatar,
+                bio: `पिता: श्री ${fatherName} | ${wing} के अंतर्गत समाज सेवा एवं पारदर्शी जन-अधिकार अभियान हेतु पंजीकृत।`,
+                responsibilities: [
+                    "अपने ग्राम/वार्ड में आम नागरिकों की समस्याओं को चिन्हित करना",
+                    "संगठन के 10 ज़मीनी संकल्पों एवं जनजागरूकता अभियानों का प्रसार"
+                ]
+            };
+
+            sessionRegisteredMembers.push(newMember);
+            renderMembersDirectory();
+            showToast('पंजीकरण सफल! आपका प्रोविजनल डिजिटल ID कार्ड तैयार है।');
+
+            openIdCardModal(getAllDisplayMembers().length - 1);
+
+            document.getElementById('memberRegForm').reset();
+            applicantUploadedPhoto = null;
+            document.getElementById('applicantPhotoPreview').src = "https://placehold.co/120x120/0f294a/FFFFFF?text=Photo";
+            switchMembershipTab('volunteer');
+        }
+
+        function openIdCardModal(index) {
+            const member = getAllDisplayMembers()[index];
+            if (!member) return;
+
+            const cardFrame = document.getElementById('printableOfficialCard');
+            const footerBar = document.getElementById('cardFooterBar');
+            const statusBadge = document.getElementById('modalStatusBadge');
+
+            const cardImg = document.getElementById('cardMemberPhoto');
+            cardImg.src = member.photo;
+            cardImg.onerror = function() { this.onerror = null; this.src = member.fallbackPhoto; };
+
+            document.getElementById('cardMemberName').textContent = member.name;
+            document.getElementById('cardMemberRole').textContent = `${member.role} | ${member.hindiRole}`;
+            document.getElementById('cardMemberIdNo').textContent = member.id;
+            document.getElementById('cardMemberQual').textContent = member.qualification;
+            document.getElementById('cardMemberArea').textContent = member.location;
+
+            if (member.type === 'patron') {
+                cardFrame.classList.remove('navy-id-frame');
+                cardFrame.classList.add('gold-id-frame');
+                footerBar.className = "bg-amber-600 text-white py-2 px-3 text-center text-[11px] font-bold tracking-wide";
+                statusBadge.className = "text-[11px] font-extrabold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-1 rounded-full";
+                statusBadge.textContent = "Associate / Patron Member Digital ID Card";
+            } else {
+                cardFrame.classList.remove('gold-id-frame');
+                cardFrame.classList.add('navy-id-frame');
+                footerBar.className = "bg-civicNavy-900 text-white py-2 px-3 text-center text-[11px] font-bold tracking-wide";
+                statusBadge.className = "text-[11px] font-extrabold uppercase tracking-wider bg-green-100 text-civicGreen-700 px-3 py-1 rounded-full";
+                statusBadge.textContent = member.type === 'core' ? "Verified Core Leadership Official ID Card" : "Provisional Active Volunteer ID Card";
+            }
+
+            const waMessage = `नमस्ते कानाराम जी (मुख्य संयोजक - THE COMMON CITIZEN KRS),%0Aमेरा ऑनलाइन पंजीकरण विवरण:%0A• ID क्रमांक: ${member.id}%0A• नाम: ${member.hindiName}%0A• श्रेणी/पद: ${member.hindiRole}%0A• क्षेत्र: ${member.location}%0A• पेशा: ${member.qualification}%0Aकृपया मेरी सदस्यता का सत्यापन कर पारदर्शी रजिस्टर में जोड़ें।`;
+            document.getElementById('modalWhatsappShareBtn').href = `https://wa.me/917015290445?text=${waMessage}`;
+
+            const modal = document.getElementById('idCardModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeIdCardModal() {
+            const modal = document.getElementById('idCardModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function handleHelpdeskComplaint(event) {
+            event.preventDefault();
+            const name = document.getElementById('helpName').value.trim();
+            const village = document.getElementById('helpVillage').value.trim();
+            const issue = document.getElementById('helpIssue').value.trim();
+
+            const waText = `🚨 *जन-समस्या / RTI सहायता अनुरोध (THE COMMON CITIZEN)*%0A• आवेदक: ${name}%0A• गाँव/पंचायत/जिला: ${village}%0A• समस्या विवरण: ${issue}`;
+            window.open(`https://wa.me/917015290445?text=${waText}`, '_blank', 'noopener,noreferrer');
+            showToast('आपकी समस्या सीधे WhatsApp (+91 70152 90445) पर भेजी जा रही है...');
+            event.target.reset();
+        }
+
+        function showToast(message) {
+            const box = document.getElementById('toastBox');
+            document.getElementById('toastMessage').textContent = message;
+            box.classList.remove('hidden');
+            box.classList.add('flex');
+            setTimeout(() => {
+                box.classList.add('hidden');
+                box.classList.remove('flex');
+            }, 4000);
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            renderMembersDirectory();
+        });
+    </script>
+</body>
+</html>
